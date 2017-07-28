@@ -15,6 +15,9 @@
 		2F5C4CEA1F2AD43E00B0E63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5C4CE81F2AD43E00B0E63A /* LaunchScreen.storyboard */; };
 		2F5C4CF51F2AD43E00B0E63A /* CustomerButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4CF41F2AD43E00B0E63A /* CustomerButtonTests.m */; };
 		2F5C4D001F2AD43E00B0E63A /* CustomerButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4CFF1F2AD43E00B0E63A /* CustomerButtonUITests.m */; };
+		2F5C4D0F1F2AD47200B0E63A /* CDACustomerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4D0E1F2AD47200B0E63A /* CDACustomerButton.m */; };
+		2F5C4D111F2AD53F00B0E63A /* xinx_kx@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F5C4D101F2AD53F00B0E63A /* xinx_kx@2x.jpg */; };
+		2F5C4D131F2AD65200B0E63A /* A1BC1DB5-D767-4CAC-A4D8-42448695DE5D.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5C4D121F2AD65200B0E63A /* A1BC1DB5-D767-4CAC-A4D8-42448695DE5D.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		2F5C4CFB1F2AD43E00B0E63A /* CustomerButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomerButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5C4CFF1F2AD43E00B0E63A /* CustomerButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerButtonUITests.m; sourceTree = "<group>"; };
 		2F5C4D011F2AD43E00B0E63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5C4D0D1F2AD47200B0E63A /* CDACustomerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDACustomerButton.h; sourceTree = "<group>"; };
+		2F5C4D0E1F2AD47200B0E63A /* CDACustomerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDACustomerButton.m; sourceTree = "<group>"; };
+		2F5C4D101F2AD53F00B0E63A /* xinx_kx@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "xinx_kx@2x.jpg"; sourceTree = "<group>"; };
+		2F5C4D121F2AD65200B0E63A /* A1BC1DB5-D767-4CAC-A4D8-42448695DE5D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A1BC1DB5-D767-4CAC-A4D8-42448695DE5D.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,10 @@
 		2F5C4CCE1F2AD43D00B0E63A = {
 			isa = PBXGroup;
 			children = (
+				2F5C4D121F2AD65200B0E63A /* A1BC1DB5-D767-4CAC-A4D8-42448695DE5D.png */,
+				2F5C4D101F2AD53F00B0E63A /* xinx_kx@2x.jpg */,
+				2F5C4D0D1F2AD47200B0E63A /* CDACustomerButton.h */,
+				2F5C4D0E1F2AD47200B0E63A /* CDACustomerButton.m */,
 				2F5C4CD91F2AD43D00B0E63A /* CustomerButton */,
 				2F5C4CF31F2AD43E00B0E63A /* CustomerButtonTests */,
 				2F5C4CFE1F2AD43E00B0E63A /* CustomerButtonUITests */,
@@ -249,7 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5C4D111F2AD53F00B0E63A /* xinx_kx@2x.jpg in Resources */,
 				2F5C4CEA1F2AD43E00B0E63A /* LaunchScreen.storyboard in Resources */,
+				2F5C4D131F2AD65200B0E63A /* A1BC1DB5-D767-4CAC-A4D8-42448695DE5D.png in Resources */,
 				2F5C4CE71F2AD43E00B0E63A /* Assets.xcassets in Resources */,
 				2F5C4CE51F2AD43D00B0E63A /* Main.storyboard in Resources */,
 			);
@@ -276,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5C4D0F1F2AD47200B0E63A /* CDACustomerButton.m in Sources */,
 				2F5C4CE21F2AD43D00B0E63A /* ViewController.m in Sources */,
 				2F5C4CDF1F2AD43D00B0E63A /* AppDelegate.m in Sources */,
 				2F5C4CDC1F2AD43D00B0E63A /* main.m in Sources */,
